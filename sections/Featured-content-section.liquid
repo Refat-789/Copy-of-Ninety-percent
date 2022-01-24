@@ -1,0 +1,61 @@
+<style>
+  .enlarge-text {
+	font-size: 1.3em;
+	line-height: 1.7;
+  text-align: center;
+}
+</style>
+
+
+<section class="featured-content-section">
+  <div class="page-width">
+  		<div class="enlarge-text">
+            <p>
+              {{section.settings.featured_des1}} <strong>{{section.settings.highlight_text1}}</strong>, {{section.settings.featured_des2}} 
+              <strong>{{section.settings.highlight_text2}}</strong>
+          </p>
+         </div>
+  </div>
+</section>
+
+
+
+
+{% schema %}
+  {
+    "name": "Featured Content section",
+    "settings": [
+    {
+      "type": "textarea",
+      "id": "featured_des1",
+      "label": "Featured Description 1",
+      "default": "We’re on a mission to create a kinder, fairer world where planet and people come first. When you buy from "
+    },
+    {
+      "type": "text",
+      "id": "highlight_text1",
+      "label": "Highlight text 1",
+      "default": "Ninety Percent"
+    },
+    {
+      "type": "textarea",
+      "id": "featured_des2",
+      "label": "Featured Description 2",
+      "default": "you help us share 90% of our distributable profits between five charities and the people who make our clothes. Together we can make a difference "
+    },
+    {
+      "type": "text",
+      "id": "highlight_text2",
+      "label": "Highlight text 2",
+      "default": "Ninety Percent"
+    }
+    ],
+    "presets":[
+          {
+            "category": "text",
+            "name": "Featured Content section"
+          }
+     ]
+  }
+{% endschema %}
+

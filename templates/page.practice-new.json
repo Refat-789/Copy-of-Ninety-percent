@@ -1,0 +1,267 @@
+{
+  "sections": {
+    "1": {
+      "type": "Hero-video",
+      "settings": {
+        "hero_video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0283\/1338\/7053\/files\/NPAW21_website-06092021.mp4?v=1630935543",
+        "hero_title": "Here and now",
+        "hero_des": "Introducing Autumn's new wardrobe heroes",
+        "hero_button_text": "Shop Now",
+        "hero_btn_link": "",
+        "hero_title_color": "#ffffff"
+      }
+    },
+    "16334334360248ad08": {
+      "type": "Featured-content-section",
+      "settings": {
+        "featured_des1": "We’re on a mission to create a kinder, fairer world where planet and people come first. When you buy from",
+        "highlight_text1": "Ninety Percent",
+        "featured_des2": "you help us share 90% of our distributable profits between five charities and the people who make our clothes. Together we can make a difference",
+        "highlight_text2": "Ninety Percent"
+      }
+    },
+    "16334334419df17c9c": {
+      "type": "logo-bar-section",
+      "blocks": {
+        "a48f2143-0b1d-4e6d-b35c-965b8c3b7d64": {
+          "type": "logo_images",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/responisblymade-1_180x_9725e128-2449-4676-87aa-8edbe064e9c6.jpg",
+            "logo_desc_text": "<p>Test<\/p>",
+            "logo_bar_link": ""
+          }
+        },
+        "9e535850-46e3-4074-bb17-2d53eb321730": {
+          "type": "logo_images",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/sharing_profits_180x_ec4a85fa-083d-4b89-bc4b-d1d91c66c4b1.jpg",
+            "logo_desc_text": "<p>Test<\/p>",
+            "logo_bar_link": ""
+          }
+        },
+        "3f757cb9-0f6c-4658-9aa2-7a8b7a2bcacf": {
+          "type": "logo_images",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/freedelivery1_180x_f1bdba0f-540d-405e-935d-36d2d8f4f4fc.jpg",
+            "logo_desc_text": "<p>Test<\/p>",
+            "logo_bar_link": ""
+          }
+        },
+        "97710781-ed65-49fa-b41d-173ba86e2f52": {
+          "type": "logo_images",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/responsiblymade_180x_f77412d3-7f15-4e91-a401-0c9251461750.jpg",
+            "logo_desc_text": "<p>Test<\/p>",
+            "logo_bar_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "a48f2143-0b1d-4e6d-b35c-965b8c3b7d64",
+        "9e535850-46e3-4074-bb17-2d53eb321730",
+        "3f757cb9-0f6c-4658-9aa2-7a8b7a2bcacf",
+        "97710781-ed65-49fa-b41d-173ba86e2f52"
+      ],
+      "settings": {
+      }
+    },
+    "16334334537408983e": {
+      "type": "collection-list",
+      "blocks": {
+        "16334334537408983e-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "16334334537408983e-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "16334334537408983e-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "3afdbaf6-2e1f-41d6-9a2e-f7c008828ce5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        }
+      },
+      "block_order": [
+        "16334334537408983e-0",
+        "16334334537408983e-1",
+        "16334334537408983e-2",
+        "3afdbaf6-2e1f-41d6-9a2e-f7c008828ce5"
+      ],
+      "settings": {
+        "title": "",
+        "grid": 4
+      }
+    },
+    "16334336206b6e833d": {
+      "type": "slideshow",
+      "blocks": {
+        "16334336206b6e833d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide.png",
+            "alignment": "center center",
+            "slide_title": "Everyday Essentials",
+            "subheading": "Stay comfy in our everyday essentials – soft on you and the planet",
+            "button_label": "Shop Now",
+            "button_link": "#"
+          }
+        },
+        "16334336206b6e833d-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "alignment": "center center",
+            "slide_title": "Image slide",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16334336206b6e833d-0",
+        "16334336206b6e833d-1"
+      ],
+      "settings": {
+        "slideshow_height": "adapt",
+        "text_size": "medium",
+        "text_alignment": "center center",
+        "show_overlay": true,
+        "autorotate": false,
+        "autorotate_speed": 5
+      }
+    },
+    "1633433597ae5627ac": {
+      "type": "collection",
+      "settings": {
+        "title": "",
+        "collection": "dresses",
+        "grid": 4,
+        "rows": 1,
+        "show_vendor": false,
+        "show_view_all": false
+      }
+    },
+    "16334335277104d181": {
+      "type": "blog-type-one",
+      "settings": {
+        "blog_image": "shopify:\/\/shop_images\/world-circularity-day-ninety-percent-2_2160x_76105e6f-6a9e-4f4e-a561-9d3967f8b496.jpg",
+        "blog_title": "LET'S TALK ABOUT CIRCULARITY",
+        "blog_des": "Follow some of our favourite tips this #WorldCircularTextilesDay to make your clothes last longer!",
+        "blog_button_text": "READ MORE",
+        "blog_btn_link": ""
+      }
+    },
+    "16336105736bf558f4": {
+      "type": "instagram",
+      "blocks": {
+        "8ec7af3c-d1fc-44cd-a9ba-83df52fa921f": {
+          "type": "insta_images",
+          "settings": {
+            "insta_image": "shopify:\/\/shop_images\/kittyunofficial-ninety-percent-1_540x_9286b3e0-f5e8-49de-8daa-04c8cbf2fe3d.jpg",
+            "insta_desc_text": "Organic Cotton Zig Zag Dress",
+            "insta_desc_url": "#"
+          }
+        },
+        "b651ec73-d4a2-4445-beba-ca76e15732ef": {
+          "type": "insta_images",
+          "settings": {
+            "insta_image": "shopify:\/\/shop_images\/tencel-dress-ninety-percent_540x_68f65e4e-9231-4b1e-bacf-92aa3b0242ee.jpg",
+            "insta_desc_text": "Stretch Tencel™ Maxi Dress",
+            "insta_desc_url": "#"
+          }
+        },
+        "b9746cba-02ec-4958-a261-f88854824a95": {
+          "type": "insta_images",
+          "settings": {
+            "insta_image": "shopify:\/\/shop_images\/jenknowsbestblog-ninety-percent-1_540x_56751878-a69f-4d34-b090-11ea2e21b819.jpg",
+            "insta_desc_text": "Tencel™ Fitted Long-Sleeve T-shirt",
+            "insta_desc_url": "#"
+          }
+        },
+        "0023c2fb-19b7-4938-b6c0-dc4a7a0562ad": {
+          "type": "insta_images",
+          "settings": {
+            "insta_image": "shopify:\/\/shop_images\/ninety-percent-niesia-25_540x_989b264a-775f-48e4-81fa-b2b67b641463.jpg",
+            "insta_desc_text": "Organic Cotton Kanga-Pocket Hoodie",
+            "insta_desc_url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "8ec7af3c-d1fc-44cd-a9ba-83df52fa921f",
+        "b651ec73-d4a2-4445-beba-ca76e15732ef",
+        "b9746cba-02ec-4958-a261-f88854824a95",
+        "0023c2fb-19b7-4938-b6c0-dc4a7a0562ad"
+      ],
+      "settings": {
+        "insta_header": "",
+        "insta_sub_header": ""
+      }
+    },
+    "163343369845096615": {
+      "type": "feature-row",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/left_image.png",
+        "layout": "left",
+        "title": "Champions of Change",
+        "text": "<p>Read our interview with Josephine Philips, founder of the UK's first clothing alteration and repair app Sojo<\/p>",
+        "button_label": "Read More",
+        "button_link": "#"
+      }
+    },
+    "16334337101494e496": {
+      "type": "blog-type-one",
+      "settings": {
+        "blog_image": "shopify:\/\/shop_images\/bg2.png",
+        "blog_title": "Read our interview with Josephine Philips, founder of the UK's first clothing alteration and repair app Sojo",
+        "blog_des": "We’re on a mission to create the kind of world we want via the clothes we make. We share 90% of our distributable profits between the people that make our collection happen and five charitable causes that are close to our heart.",
+        "blog_button_text": "Vote Now",
+        "blog_btn_link": ""
+      }
+    },
+    "16336108113f2f3a90": {
+      "type": "quotes",
+      "blocks": {
+        "16336108113f2f3a90-2": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "GRAZIA"
+          }
+        }
+      },
+      "block_order": [
+        "16336108113f2f3a90-2"
+      ],
+      "settings": {
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "1",
+    "16334334360248ad08",
+    "16334334419df17c9c",
+    "16334334537408983e",
+    "16334336206b6e833d",
+    "1633433597ae5627ac",
+    "16334335277104d181",
+    "16336105736bf558f4",
+    "163343369845096615",
+    "16334337101494e496",
+    "16336108113f2f3a90"
+  ]
+}

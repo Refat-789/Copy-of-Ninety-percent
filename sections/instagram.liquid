@@ -1,0 +1,95 @@
+<style>	
+    .np-home-insta-galery {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+  }
+  .insta-galery-column {
+    webkit-flex-direction: column;
+    flex-direction: column;
+    width: 50%;
+}
+.custom-instageam .insta-block {
+    text-align: center;
+}
+.insta-image {
+    display: block;
+    width: 100%;
+}
+.insta-block a {
+	font-weight: 700;
+	color: #1b1b1b;
+	border-bottom: 1px solid #000;
+	display: inline-block;
+	margin-top: 7px;
+}
+</style>
+
+<section class="custom-instageam">
+  <h2 class="tag-line">{{ section.settings.insta_header }}</h2>
+  <p class="tag-line">{{ section.settings.insta_sub_header }}</p>
+  
+  <div class="np-home-insta-galery">  
+    {% for block in section.blocks %}
+      <div class="insta-galery-column">
+        <div class="insta-block">
+            <img src="{{ block.settings.insta_image | img_url: 'master' }}" class="insta-image">
+            <a href="{{ block.settings.insta_desc_url }}" class="caption">{{ block.settings.insta_desc_text }}</a>
+        </div>
+   	   </div>
+    {% endfor %}    
+  </div>
+</section>
+
+
+
+{% schema %}
+{
+  "name": "Instagram section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "insta_header",
+      "label": "Instagram Heading",
+      "default": "#NINETYPERCENTWORLD"
+    },
+    {
+      "type": "richtext",
+      "id": "insta_sub_header",
+      "label": "Instagram Sub Heading"
+    }
+  ],
+
+  "blocks": [
+		{
+		 "type": "insta_images",
+		  "name": "Insta block",
+			"settings":[
+				{
+					"type": "image_picker",
+					"id": "insta_image",
+					"label": "Choose Image"
+				},
+				{
+					"type": "text",
+					"id":  "insta_desc_text",
+					"label": "Insta Image Caption"
+				},
+				{
+					"type": "url",
+					"id":  "insta_desc_url",
+					"label": "Insta Image link"
+				}
+			]
+		}
+	],
+  "presets":[
+       {
+         "category": "Social",
+         "name": "Instagram section"
+       }
+  ]
+} 
+{% endschema %}
+

@@ -1,0 +1,75 @@
+<style>	
+    .logo-bar {
+        text-align: center;
+        margin-bottom: -30px;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .logo-bar__item_icons {
+    -ms-flex: 0 1 130px;
+    flex: 0 1 130px;
+    vertical-align: middle;
+    margin: 0 5px 10px;
+}
+  </style>
+
+<div class="page-width">
+    <div class="logo-bar">
+        {% for block in section.blocks %}
+        <div class="logo-bar__item_icons">
+            <a href="{{ block.settings.logo_bar_link }}" class="logo-bar-link">
+                <img src="{{ block.settings.logo_image | img_url: 'master' }}" class="logo-bar-img">
+                <p class="caption">{{ block.settings.logo_desc_text }}</p>
+            </a>
+        </div>
+      {% endfor %}   
+    </div>
+</div>
+  
+  
+  
+  {% schema %}
+  {
+    "name": "Logo bar section",
+    "settings": [
+    
+    ],
+
+    "blocks": [
+          {
+           "type": "logo_images",
+            "name": "Logo block",
+              "settings":[
+                  {
+                      "type": "image_picker",
+                      "id": "logo_image",
+                      "label": "Choose Image"
+                  },
+                  {
+                      "type": "richtext",
+                      "id":  "logo_desc_text",
+                      "label": "Logo Caption"
+                  },
+                  {
+                    "type": "url",
+                    "id": "logo_bar_link",
+                    "label": "Logo Link"
+                  }
+              ]
+          }
+      ],
+      "presets":[
+           {
+             "category": "Logos",
+             "name": "Logo bar section"
+           }
+      ]
+  } 
+  {% endschema %}
+  
+  

@@ -1,0 +1,117 @@
+ <style>
+   .hero-video-section {
+	position: relative;
+	height: 650px;
+}
+   .hero-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+   .hero-video video {
+	position: relative;
+	object-fit: cover;
+	font-family: "object-fit: cover";
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}
+   .hero__text-shadow {
+	position: relative;
+    height: 100%;
+    }
+   .hero__text-shadow h2 {
+	color: {{section.settings.hero_title_color}};
+     font-size: 40px;
+}
+     .hero__text-shadow .hero__subtitle {
+	color: #fff;
+       font-size: 20px;
+}
+   .hero__link a {
+	background: #fff;
+	color: #000;
+	letter-spacing: 3px;
+}
+   .page-width {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.vertical-bottom {
+	vertical-align: bottom;
+	display: table-cell;
+	padding: 45px 0;
+}
+	
+</style>
+
+
+<div class="hero-video-section">
+    <div class="hero-video">
+      <video src="{{section.settings.hero_video}}" autoplay loop muted></video>
+	</div>
+    <div class="hero__text-shadow"> 
+      <div class="page-width">
+        <div class="vertical-bottom">
+          <h2>{{section.settings.hero_title}}</h2> 
+          <p class="hero__subtitle">{{section.settings.hero_des}}</p> 
+          <div class="hero__link">
+              <a href="{{section.settings.hero_btn_link}}" class="btn">{{section.settings.hero_button_text}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Hero video Section",
+    "settings": [
+		{
+        "type": "url",
+        "id": "hero_video",
+        "label": "Hero Video"
+	  },
+	  {
+        "type": "text",
+        "id": "hero_title",
+        "label": "Hero title",
+          "default": "Write the text here..."
+      },
+      {
+        "type": "textarea",
+        "id": "hero_des",
+        "label": "Hero Description",
+        "default": "Write the details here..."
+      },
+	  {
+        "type": "text",
+        "id": "hero_button_text",
+        "label": "Hero Button Text",
+        "default": "Shop Now"
+      },
+	  {
+        "type": "url",
+        "id": "hero_btn_link",
+        "label": "Hero Button Link"
+      },
+      {
+        "type": "color",
+        "id": "hero_title_color",
+        "label": "Pick Tilte Color",
+		    "default": "#fff"
+       }
+	],
+  "presets":[
+       {
+         "category": "video",
+         "name": "Hero video Section"
+       }
+  ]
+  }
+{% endschema %}
+

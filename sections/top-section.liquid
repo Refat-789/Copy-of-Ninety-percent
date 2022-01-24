@@ -1,0 +1,61 @@
+{% if section.settings.hero_image %}
+    <style>
+	.hero-img{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url("{{ section.settings.hero_image | img_url: 'master' }}");
+      background-size: cover;
+      height: 650px;
+      position: relative;
+      width: 100%;  
+    }
+</style>
+{% else %}
+  <style>
+	.hero-img{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-color: red;
+      background-size: cover;
+      height: 650px;
+      position: relative;
+      width: 100%;  
+    }
+</style>
+{% endif %}
+
+
+
+<div class="page-width">
+    <div class="hero-img">
+	</div>
+    <div class="top-section"> 
+        <h1>{{section.settings.top_article}}</h1> 
+        <p>{{section.settings.top_des}}</p> 
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": "top section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "hero_image",
+        "label": "Top Image"
+	  },
+	  {
+        "type": "text",
+        "id": "top_article",
+        "label": "Top article",
+          "default": "Writhe the text here..."
+      },
+      {
+        "type": "textarea",
+        "id": "top_des",
+        "label": "Top Description",
+        "default": "Writhe the details here..."
+      }
+	]
+  }
+{% endschema %}

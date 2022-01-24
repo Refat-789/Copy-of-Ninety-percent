@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "1": {
+      "type": "Hero-video",
+      "settings": {
+        "hero_video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0283\/1338\/7053\/files\/NPAW21_website-06092021.mp4?v=1630935543",
+        "hero_title": "Here and now",
+        "hero_des": "Introducing Autumn's new wardrobe heroes",
+        "hero_button_text": "Shop Now",
+        "hero_btn_link": "",
+        "hero_title_color": "#ffffff"
+      }
+    },
+    "1643030453b1e402a5": {
+      "type": "collection-list",
+      "blocks": {
+        "1643030453711cab50-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "1643030453711cab50-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "1643030453711cab50-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "e29cd519-69e8-4bff-b241-1ccb1f0d4800": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        }
+      },
+      "block_order": [
+        "1643030453711cab50-0",
+        "1643030453711cab50-1",
+        "1643030453711cab50-2",
+        "e29cd519-69e8-4bff-b241-1ccb1f0d4800"
+      ],
+      "settings": {
+        "title": "",
+        "grid": 4
+      }
+    },
+    "164303062384f104a4": {
+      "type": "logo-bar-section",
+      "blocks": {
+        "7af6cdca-6e0e-46bd-8e90-e18a99a15b91": {
+          "type": "logo_images",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/responisblymade-1_180x_9725e128-2449-4676-87aa-8edbe064e9c6.jpg",
+            "logo_desc_text": "<p>test<\/p>",
+            "logo_bar_link": ""
+          }
+        },
+        "8b53cba7-f2a5-4160-85a8-d04243dcd242": {
+          "type": "logo_images",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/sharing_profits_180x_ec4a85fa-083d-4b89-bc4b-d1d91c66c4b1.jpg",
+            "logo_desc_text": "<p>test<\/p>",
+            "logo_bar_link": ""
+          }
+        },
+        "913d42b8-d97a-4734-8a09-348a5b3410ea": {
+          "type": "logo_images",
+          "settings": {
+            "logo_desc_text": "",
+            "logo_bar_link": ""
+          }
+        },
+        "615ce49b-cd20-4cd5-8473-52bc667eb729": {
+          "type": "logo_images",
+          "settings": {
+            "logo_desc_text": "",
+            "logo_bar_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7af6cdca-6e0e-46bd-8e90-e18a99a15b91",
+        "8b53cba7-f2a5-4160-85a8-d04243dcd242",
+        "913d42b8-d97a-4734-8a09-348a5b3410ea",
+        "615ce49b-cd20-4cd5-8473-52bc667eb729"
+      ],
+      "settings": {
+      }
+    },
+    "1643030632c9c283a8": {
+      "type": "collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "dresses",
+        "grid": 4,
+        "rows": 1,
+        "show_vendor": false,
+        "show_view_all": false
+      }
+    }
+  },
+  "order": [
+    "1",
+    "1643030453b1e402a5",
+    "164303062384f104a4",
+    "1643030632c9c283a8"
+  ]
+}
